@@ -1,6 +1,7 @@
 <?php
 
 // E-mail (PHPMailer)
+//20.03.26
 define('EMAIL_HOST', 'smtp.titan.email');
 define('EMAIL_PORT', 465);
 define('EMAIL_USER', 'contato@pixelpop.com.br');
