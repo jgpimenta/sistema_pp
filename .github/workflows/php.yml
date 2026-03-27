@@ -94,7 +94,7 @@ jobs:
         run: |
           sshpass -p "$SSH_PASSWORD" ssh \
             -o StrictHostKeyChecking=no $SSH_USER@$SSH_HOST "
-              BACKUP_DIR=/home4/jaimeg36/backups
+              BACKUP_DIR=/home2/jaimeg36/backups
               mkdir -p \$BACKUP_DIR
               cd $REMOTE_PATH
               zip -r \$BACKUP_DIR/backup_\$(date +%Y%m%d_%H%M%S).zip .
